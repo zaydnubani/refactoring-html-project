@@ -1,4 +1,4 @@
-/*container for company name and nav links*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,18 +9,22 @@ body {
     background-color: #d9dcd6;
 }
 
+/* changed ".header" to "header"; class tag to element tag for semantic purposes. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/*Horiseon title top-left*/
+/* changed ".header h1" to "header h1"; class tag to element tag for semantic purposes. */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/*nav list, top-right*/
+
+/* removed .header h1 .seo to create style unison */
+
+/* changed ".header div" to "header div"; class tag to element tag for semantic purposes. */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -28,11 +32,13 @@ header div {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*nav list element: no bullet point*/
+
+/* changed ".header div ul" to "header div ul"; class tag to element tag for semantic purposes. */
 header div ul {
     list-style-type: none;
 }
-/*nav list element: horizontal alignment, and spacing*/
+
+/* changed ".header div ul li" to "header div ul li"; class tag to element tag for semantic purposes. */
 header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -46,7 +52,8 @@ a {
 p {
     font-size: 16px;
 }
-/*team image, between nav and content*/
+
+/* changed ".hero" to ".team-image" for clarity purposes. */
 .team-image {
     height: 800px;
     width: 100%;
@@ -55,23 +62,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*section sub-element*/
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
-/*section sub-element*/
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
-/*section container*/
+
+/* changed ".content" to "section"; class tag to element tag for semantic purposes. */
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/*aside container*/
+/* changed ".benefits" to "aside"; class tag to element tag for semantic purposes. */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -82,55 +90,55 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/*aside sub-element*/
+
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*aside sub-element*/
+
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*aside sub-element*/
+
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*aside sub-element*/
+
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*aside sub-element*/
+
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*aside sub-element*/
+
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*aside sub-element*/
+
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*aside sub-element*/
+
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*aside sub-element*/
+
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*aside sub-container*/
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -139,7 +147,7 @@ aside {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*aside sub-container*/
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -148,7 +156,7 @@ aside {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*aside sub-container*/
+
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -157,41 +165,43 @@ aside {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*section sub-element*/
+
 .search-engine-optimization img {
     max-height: 200px;
 }
-/*section sub-element*/
+
 .online-reputation-management img {
     max-height: 200px;
 }
-/*section sub-element*/
+
 .social-media-marketing img {
     max-height: 200px;
 }
-/*section sub-element*/
+
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*section sub-element*/
+
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*section sub-element*/
+
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*footer container*/
+
+/* changed ".footer" to "footer"; class tag to element tag for semantic purposes. */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/*footer sub element*/
+
+/* changed ".footer h2" to "footer h2"; class tag to element tag for semantic purposes. */
 footer h2 {
     font-size: 20px;
 }
